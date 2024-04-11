@@ -11,8 +11,8 @@
       "headers": {
         "Content-Type": "text/html"
       },
-      "statusCode": null,
-      "body": null
+      "statusCode": 200,
+      "body": true
     }
   },
   "2": {
@@ -127,7 +127,8 @@
         "Content-Type": "application/x-www-form-urlencoded"
       },
       "body": {
-        "name":false
+        "name": true
+
       }
     },
     "response": {
@@ -135,7 +136,7 @@
         "Location": "/products/:productId"
       },
       "statusCode": 302,
-      "body": true
+      "body": false
     }
   },
   "9": {
@@ -178,7 +179,7 @@
     "endpoint": "Ask for the edit review page for a product",
     "request": {
       "method": "GET",
-      "URL": "/:reviewId/edit",
+      "URL": "/:reviewId",
       "headers": false,
       "body": false
     },
